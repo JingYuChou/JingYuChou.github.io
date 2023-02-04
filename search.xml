@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>First-blog</title>
+      <link href="/2023/02/04/first-blog/"/>
+      <url>/2023/02/04/first-blog/</url>
+      
+        <content type="html"><![CDATA[<p>做个<em>小小</em>的<strong>尝试</strong></p><pre><code>typedef struct N{    int a;    N* lnext;}List</code></pre><p><span class="github-emoji"><span>😭</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f62d.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span> <span class="github-emoji"><span>🐳</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f433.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p><p>$x_1^2 + x_2^2 \geq 2x_1x_2$</p><p>$(x_1^3 + x_2^3)\times(\dfrac{1}{x} +\dfrac{1}{y}) \geq (x_1 + x_2)^2$</p><p>$(x_1^3 + x_2^3) \geq \dfrac{(x_1^{1.5} + x_2^{1.5})^2}{2}$</p><p>$\int_0^1{e^x} = e$</p><p>费时费力，终于搞好了</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 尝试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/02/03/hello-world/"/>
       <url>/2023/02/03/hello-world/</url>

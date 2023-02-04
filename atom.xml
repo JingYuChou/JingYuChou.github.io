@@ -6,7 +6,7 @@
   <link href="http://jingyuchou.github.io/atom.xml" rel="self"/>
   
   <link href="http://jingyuchou.github.io/"/>
-  <updated>2022-12-31T14:47:48.234Z</updated>
+  <updated>2023-02-04T09:26:14.084Z</updated>
   <id>http://jingyuchou.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>First-blog</title>
+    <link href="http://jingyuchou.github.io/2023/02/04/first-blog/"/>
+    <id>http://jingyuchou.github.io/2023/02/04/first-blog/</id>
+    <published>2023-02-04T09:00:21.000Z</published>
+    <updated>2023-02-04T09:26:14.084Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;做个&lt;em&gt;小小&lt;/em&gt;的&lt;strong&gt;尝试&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;typedef struct N{
+    int a;
+    N* lnext;
+}List
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="尝试" scheme="http://jingyuchou.github.io/tags/%E5%B0%9D%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
