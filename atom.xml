@@ -6,7 +6,7 @@
   <link href="http://jingyuchou.github.io/atom.xml" rel="self"/>
   
   <link href="http://jingyuchou.github.io/"/>
-  <updated>2023-02-06T11:35:40.195Z</updated>
+  <updated>2023-03-08T15:04:25.029Z</updated>
   <id>http://jingyuchou.github.io/</id>
   
   <author>
@@ -17,18 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>OS_Pre</title>
+    <link href="http://jingyuchou.github.io/2023/02/18/os-pre/"/>
+    <id>http://jingyuchou.github.io/2023/02/18/os-pre/</id>
+    <published>2023-02-18T08:30:27.000Z</published>
+    <updated>2023-03-08T15:04:25.029Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;OS_Pre&lt;/h1&gt;
+&lt;h2 id=&quot;Linux基础操作&quot;&gt;Linux基础操作&lt;/h2&gt;
+&lt;h3 id=&quot;命令&quot;&gt;命令&lt;/h3&gt;
+&lt;p&gt;在命令行界面中，用户通过一行一行命令向操作系统发出指示，从而达到人机交互的目的。在 Linux 操作系统中，命令的一般格式为：命令名</summary>
+        
+      
+    
+    
+    
+    
+    <category term="OS" scheme="http://jingyuchou.github.io/tags/OS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>First-blog</title>
     <link href="http://jingyuchou.github.io/2023/02/04/first-blog/"/>
     <id>http://jingyuchou.github.io/2023/02/04/first-blog/</id>
     <published>2023-02-04T09:00:21.000Z</published>
-    <updated>2023-02-06T11:35:40.195Z</updated>
+    <updated>2023-02-18T08:47:04.547Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;做个&lt;em&gt;小小&lt;/em&gt;的&lt;strong&gt;尝试&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&lt;pre class=&quot;line-numbers language-C&quot; data-language=&quot;C&quot;&gt;&lt;code class=&quot;language-C&quot;&gt;typedef struct</summary>
+    <summary type="html">&lt;p&gt;做个&lt;em&gt;小小&lt;/em&gt;的&lt;strong&gt;尝试&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-C&quot; data-language=&quot;C&quot;&gt;&lt;code class=&quot;language-C&quot;&gt;typedef struct N{
+</summary>
         
       
     

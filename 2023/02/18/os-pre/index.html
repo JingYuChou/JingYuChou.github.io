@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, ZJYの颓圮日记">
+    <meta name="keywords" content="OS_Pre, ZJYの颓圮日记">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | ZJYの颓圮日记</title>
+    <title>OS_Pre | ZJYの颓圮日记</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">OS_Pre</h1>
                 </div>
             </div>
         </div>
@@ -432,9 +432,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/OS/">
+                                <span class="chip bg-color">OS</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -446,28 +450,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-02-03
+                    2023-02-18
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-12-31
+                    2023-03-08
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    74
+                    954
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -490,21 +494,83 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1>OS_Pre</h1>
+<h2 id="Linux基础操作">Linux基础操作</h2>
+<h3 id="命令">命令</h3>
+<p>在命令行界面中，用户通过一行一行命令向操作系统发出指示，从而达到人机交互的目的。在 Linux 操作系统中，命令的一般格式为：命令名 <code>[选项] [参数]</code> …，方括号的意思是可选，意为可以没有，也可以有一个或多个。接下来我们会认识一些常用的命令。</p>
+<h3 id="目录操作">目录操作</h3>
+<pre class="line-numbers language-none"><code class="language-none">cd
+用法：cd [选项] 目录
+作用：切换到某个目录（Change Directory）。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p><code>/</code> 代表的是根目录，<code>~</code>则是用户目录的简写，对于普通用户而言，用户目录就是<code>/home/用户名</code>，对于root用户，用户目录是<code>/root</code></p>
+<blockquote>
+<p>Tips：在需要键入文件名或目录名时，可以使用 Tab 自动补足全名，当有多种补全方案时双击 Tab 可以显示所有可能选项。你可以试着在屏幕上输入 cd /h 然后按下 Tab ，就会自动补全为 cd /home，如果你输入的是cd /，再按两下 Tab，会显示所有可能的选择，有些像 ls。</p>
+</blockquote>
+<pre class="line-numbers language-none"><code class="language-none">ls
+用法：ls [选项] [目录]
+作用：列出目录中的文件。若参数“目录”未给出，则列出当前目录中的文件。
+选项（常用）：
+-a              显示隐藏的文件
+-l              每行只列出一个文件
 
+mkdir
+用法：mkdir [选项] 目录
+作用：创建一个新目录。
+
+pwd
+用法：pwd [选项]
+作用：输出当前目录的绝对路径。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="文件操作">文件操作</h3>
+<pre class="line-numbers language-none"><code class="language-none">touch
+用法：touch [选项] 文件名
+作用：当文件存在时更新文件的时间戳，当文件不存在时创建新文件。
+
+rm
+用法：rm [选项] 文件
+作用：删除文件。
+选项（常用）：
+-r              递归删除目录及其内容，删除非空目录必须有此选项，否则无法删除。
+-f              强制删除，不提示用户确认，忽略不存在的目录。
+-i              逐一提示用户确认每个将要被删除的文件。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<p>Tips:<code>rm -rf</code> 是十分危险的命令（尤其在 root 用户下），非必要不使用<code>rm -rf</code>命令，在执行之前需要再三确认。root 用户具有至高无上的权限，在该用户下执行<code>rm -rf /</code>可以删除一切文件，包括 Linux 本身，从而导致系统被毁灭。</p>
+</blockquote>
+<pre class="line-numbers language-none"><code class="language-none">cp
+用法：cp [选项] 源文件 目标路径
+作用：将源文件（也可以是目录）复制为目标路径对应的文件（如果目标路径是文件）或复制到目标路径（如果目标路径是目录）。
+选项（常用）：
+-r              递归复制目录及其子目录内的所有内容。
+
+mv
+用法：mv [选项] 源文件 目标路径
+作用：将源文件（也可以是目录）移动为目标路径对应的文件（如果目标路径是文件）或移动到目标路径（如果目标路径是目录）。
+选项（常用）：
+-r              递归移动目录及其子目录内的所有内容。
+
+
+diff
+用法：diff [选项] 文件1 文件2
+选项（常用）：
+-b              不检查空白字符的不同。
+-B              不检查空行。
+-q              仅显示有无差异，不显示详细信息。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="查找操作">查找操作</h3>
+<pre class="line-numbers language-none"><code class="language-none">find
+用法：find [路径] &lt;选项&gt;
+作用：在给定路径下递归地查找文件，输出符合要求的文件的路径。如果没有给定路径，则在当前目录下查找。
+选项（常用）：
+-name &lt;文件名&gt;             指定需要查找的文件名。
+
+grep
+用法：grep [选项] PATTERN FILE
+（PATTERN是匹配字符串，FILE是文件或目录的路径）
+作用：输出匹配PATTERN的文件和相关的行。
+选项（常用）：
+-a              不忽略二进制数据进行搜索。
+-i              忽略大小写差异。
+-r              从目录中递归查找。
+-n              显示行号。
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
                 
             </div>
             <hr/>
@@ -530,7 +596,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://JingYuChou.github.io/2023/02/03/hello-world/">http://JingYuChou.github.io/2023/02/03/hello-world/</a>
+                    <a href="http://JingYuChou.github.io/2023/02/18/os-pre/">http://JingYuChou.github.io/2023/02/18/os-pre/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -567,7 +633,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/OS/">
+                                    <span class="chip bg-color">OS</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -609,9 +679,56 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2023/02/18/os-pre/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="OS_Pre">
+                        
+                        <span class="card-title">OS_Pre</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-18
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Whale_Zhou
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/OS/">
+                        <span class="chip bg-color">OS</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2023/02/04/first-blog/">
                     <div class="card-image">
@@ -629,9 +746,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-02-04
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-04
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -648,44 +765,6 @@
                     </a>
                     
                 </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2023/02/03/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-03
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Whale_Zhou
-                            
-                        </span>
-                    </div>
-                </div>
-
                 
             </div>
         </div>
